@@ -28,7 +28,6 @@ print(latest_file)
 with pdfplumber.open(latest_file) as pdf:
     first_page = pdf.pages[0]
     content=first_page.extract_text()
-    # print(content)
 
 PATTERN= r'\d\d\d\d\d\d\d\d\d\d'
 all_no=re.findall(PATTERN, content)
