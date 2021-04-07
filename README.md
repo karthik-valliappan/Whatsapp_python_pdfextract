@@ -1,5 +1,5 @@
 # Text Extract from PDF and Automate WhatsApp Message
-Extracting PDF text and uploading it to wordpress and sending whatsapp message to the user using python
+Extracting contact number from PDF and sending WhatsApp message to the extracted number using python. 
 
 # Use Case
 
