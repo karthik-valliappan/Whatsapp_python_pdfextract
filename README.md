@@ -35,6 +35,7 @@ When small businesses can't afford WhatsApp business API can use this method to 
 ## Cons
 
 WhatsApp python library uses WhatsApp web to send messages and it consumes time.
+Cant be used as a WhatsApp chatbot
 
 
 ## License
