@@ -15,7 +15,7 @@ User Download the fees receipt from the application and the application doesn't 
 
 WhatsApp python library uses WhatsApp web to send messages and it consumes time.
 
-## Required Libraries
+## Libraries
 
 
 ```bash
