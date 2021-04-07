@@ -3,7 +3,7 @@ Extracting PDF text and uploading it to wordpress and sending whatsapp message t
 
 # Use Case
 
-User Downloaded fees receipt from the application and the application doesn't have the capabilities to send WhatsApp messages. Tried to automate the message sending process through Python. Steps involved
+User Download the fees receipt from the application and the application doesn't have the capabilities to send WhatsApp messages. Tried to automate the message sending process through Python. Steps involved
 
 1. Download fees receipt from website.
 2. Using the windows automation tool triggers the python code when the new file downloaded into the windows directory.
