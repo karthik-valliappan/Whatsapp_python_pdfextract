@@ -15,9 +15,6 @@ User Download the fees receipt from the application and the application doesn't 
 
 https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/ 
 
-## Cons
-
-WhatsApp python library uses WhatsApp web to send messages and it consumes time.
 
 ## Libraries
 
@@ -32,6 +29,10 @@ pdfplumber
 ## Reason to use this Method
 
 When small businesses can't afford WhatsApp business API can use this method to automate the message sending process.
+
+## Cons
+
+WhatsApp python library uses WhatsApp web to send messages and it consumes time.
 
 
 ## License
