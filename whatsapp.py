@@ -61,6 +61,8 @@ URL = mediaUrl
 End_message = 'Thanks, Academy Name'
 
 Full_message = message + '\n' + URL + '\n' + End_message
+
+## Print full message to test
 print(Full_message)
 
 pywhatkit.sendwhatmsg(customer_no,Full_message,hour,mins)
