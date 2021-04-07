@@ -5,10 +5,27 @@ import re
 import pdfplumber
 import pywhatkit
 import datetime
+import glob
+
+####### filter latest downloaded file from the directory ##########
+
+list_of_files = glob.glob('/Users/karthik/Downloads/*.pdf')
+latest_file = max(list_of_files, key=os.path.getctime)
+print(latest_file)
+
+### filter can be done in other way to #####
+
+
+# folder = "/Users/karthik/Downloads/"
+# files_path = os.path.join(folder, '*.pdf')
+# files = sorted(
+#     glob.iglob(files_path), key=os.path.getctime, reverse=True)
+# print(files[0])
+
 
 ####### Extract the number from PDF #######
 
-with pdfplumber.open(r'test.pdf') as pdf:
+with pdfplumber.open(latest_file) as pdf:
     first_page = pdf.pages[0]
     content=first_page.extract_text()
     # print(content)
