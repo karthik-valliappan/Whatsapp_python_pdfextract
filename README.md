@@ -13,6 +13,8 @@ User Download the fees receipt from the application and the application doesn't 
 
 ## Wordpress API:
 
+Refer Generating Manually section from the below link to generate application password for the user.
+
 https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/ 
 
 
