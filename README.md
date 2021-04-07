@@ -1,4 +1,4 @@
-# Whatsapp_python_pdfextract
+# Text Extract from PDF and Automate WhatsApp Message
 Extracting PDF text and uploading it to wordpress and sending whatsapp message to the user using python
 
 # Use Case
