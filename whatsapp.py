@@ -23,7 +23,7 @@ print(latest_file)
 # print(files[0])
 
 
-####### Using the latest pdf file extracting the number #######
+####### Using the latest pdf file extracting the customer number #######
 
 with pdfplumber.open(latest_file) as pdf:
     first_page = pdf.pages[0]
