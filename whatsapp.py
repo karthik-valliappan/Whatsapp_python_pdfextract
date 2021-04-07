@@ -13,7 +13,7 @@ list_of_files = glob.glob('/Users/karthik/Downloads/*.pdf')
 latest_file = max(list_of_files, key=os.path.getctime)
 print(latest_file)
 
-### filter can be done in other way to #####
+### filter can be done in other ways by sorting method #####
 
 
 # folder = "/Users/karthik/Downloads/"
@@ -23,7 +23,7 @@ print(latest_file)
 # print(files[0])
 
 
-####### Extract the number from PDF #######
+####### Using the latest pdf file extracting the number #######
 
 with pdfplumber.open(latest_file) as pdf:
     first_page = pdf.pages[0]
