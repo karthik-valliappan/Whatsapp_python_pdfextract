@@ -11,6 +11,10 @@ User Download the fees receipt from the application and the application doesn't 
 4. Same code uploads the pdf file to WordPress media using WordPress API and gets the link to download the pdf file.
 5. Same code uses the customer number and pdf downloadable link as input for the WhatsApp python library send messages function.
 
+## Wordpress API:
+
+https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/ 
+
 ## Cons
 
 WhatsApp python library uses WhatsApp web to send messages and it consumes time.
