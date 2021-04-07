@@ -54,7 +54,7 @@ mediaUrl = link.get('guid').get('rendered')
 print(link.get('guid').get('rendered'))
 
 
-######### time and pywhatkit module ############
+######### datetime and pywhatkit module ############
 ### pywhatkit uses whatsapp web app to send . It require sometime to open whatsapp web. Get the current time and print 2 mins later time. ######
 ### two minutes later time used as a import for pywhatkit sendmessage function #######
 
