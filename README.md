@@ -27,10 +27,8 @@ pdfplumber
 
 ## Reason to use this Method
 
-```
 When small businesses can't afford WhatsApp business API can use this method to automate the message sending process.
 
-```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
