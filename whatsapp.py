@@ -57,15 +57,15 @@ print(mins)
 
 
 message = 'Dear Parents, Please download the fees receipt by clicking the link.'
-URL = mediaUrl
-End_message = 'Thanks, Academy Name'
+url = mediaUrl
+end_message = 'Thanks, Academy Name'
 
-Full_message = message + '\n' + URL + '\n' + End_message
+full_message = message + '\n' + url + '\n' + end_message
 
 ## Print full message to test
-print(Full_message)
+print(full_message)
 
-pywhatkit.sendwhatmsg(customer_no,Full_message,hour,mins)
+pywhatkit.sendwhatmsg(customer_no,full_message,hour,mins)
 
 
 
