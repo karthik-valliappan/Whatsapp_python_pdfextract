@@ -29,9 +29,13 @@ with pdfplumber.open(latest_file) as pdf:
     first_page = pdf.pages[0]
     content=first_page.extract_text()
 
+#My use case is to get 10 digit mobile number so using regex pattern to filter
+
 PATTERN= r'\d\d\d\d\d\d\d\d\d\d'
 all_no=re.findall(PATTERN, content)
+
 ## My use case pdf has two numbers, 1st number refers to academy number and 2nd number refers to customer number. I print 2nd from from the list
+
 customer_no= all_no[1]
 print(customer_no)
 
