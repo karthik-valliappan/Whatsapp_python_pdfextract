@@ -9,7 +9,7 @@ User Download the fees receipt from the application and the application doesn't 
 2. monitorfilesystem.py runs in backgroud and detect when new pdf files is created and trigger the whatsapp.py code
 3. whatsapp.py Python Code read the pdf and get the customer number.
 4. Same code uploads the pdf file to WordPress media using WordPress API and gets the link to download the pdf file.
-5. Same code uses the customer number and pdf downloadable link as input for the WhatsApp python library send messages function.
+5. Same code uses the customer number and pdf downloadable link as input for the WhatsApp python library send messages function and send message to the customer
 
 ## Wordpress API:
 
