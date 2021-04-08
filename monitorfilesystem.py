@@ -1,7 +1,6 @@
 import watchdog.observers
 import watchdog.events
 import time
-from watchdog.events import FileSystemEventHandler
 import os
 
 ####### filter based on the pattern matching ########
