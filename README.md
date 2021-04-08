@@ -7,7 +7,7 @@ User Download the fees receipt from the application and the application doesn't 
 
 1. Download fees receipt from website.
 2. monitorfilesystem.py runs in backgroud and detect when new pdf files is created and trigger the whatsapp.py code
-3. Python Code read the pdf and get the customer number.
+3. whatsapp.py Python Code read the pdf and get the customer number.
 4. Same code uploads the pdf file to WordPress media using WordPress API and gets the link to download the pdf file.
 5. Same code uses the customer number and pdf downloadable link as input for the WhatsApp python library send messages function.
 
