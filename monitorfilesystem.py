@@ -9,7 +9,8 @@ import os
 class Handler(watchdog.events.PatternMatchingEventHandler):
     def __init__(self):
         # Set the patterns for PatternMatchingEventHandler
-        watchdog.events.PatternMatchingEventHandler.__init__(self, patterns=['*.pdf'],ignore_directories=True, case_sensitive=False)
+        watchdog.events.PatternMatchingEventHandler.__init__(self, patterns=['*.pdf'], ignore_directories=True, case_sensitive=False)
+        
     def on_created(self, event):
         os.system('python3 /Users/karthik/PycharmProjects/monitorfiles/whatsapp.py')
 
