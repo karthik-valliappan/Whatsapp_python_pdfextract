@@ -1,15 +1,15 @@
 import watchdog.observers
+import watchdog.events
 import time
 from watchdog.events import FileSystemEventHandler
 import os
 
+####### filter based on the pattern matching ########
 
-class Handler(FileSystemEventHandler):
-
-# To verify the events 
-#    def on_any_event(self, event):
-#        print(event.event_type, event.src_path)
-
+class Handler(watchdog.events.PatternMatchingEventHandler):
+    def __init__(self):
+        # Set the patterns for PatternMatchingEventHandler
+        watchdog.events.PatternMatchingEventHandler.__init__(self, patterns=['*.pdf'],ignore_directories=True, case_sensitive=False)
     def on_created(self, event):
         os.system('python3 /Users/karthik/PycharmProjects/monitorfiles/whatsapp.py')
 
