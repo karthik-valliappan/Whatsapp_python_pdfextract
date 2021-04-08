@@ -5,8 +5,10 @@ import os
 
 
 class Handler(FileSystemEventHandler):
-    def on_any_event(self, event):
-        print(event.event_type, event.src_path)
+
+# To verify the events 
+#    def on_any_event(self, event):
+#        print(event.event_type, event.src_path)
 
     def on_created(self, event):
         os.system('python3 /Users/karthik/PycharmProjects/monitorfiles/whatsapp.py')
