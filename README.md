@@ -19,7 +19,7 @@ https://make.wordpress.org/core/2020/11/05/application-passwords-integration-gui
 
 ## Monitor your file system
 
-Python Watchdog library help to monitor the file system to detect on new file created or modified. If new files is created it will trigger the whatsapp.py file.
+Python Watchdog library help to monitor the file system to detect on new file creation or modification. If new files is created it will trigger the whatsapp.py file.
 
 
 ## Libraries
