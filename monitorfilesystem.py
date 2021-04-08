@@ -1,4 +1,3 @@
-import watchdog.events
 import watchdog.observers
 import time
 from watchdog.events import FileSystemEventHandler
