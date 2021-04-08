@@ -17,6 +17,10 @@ Refer Generating Manually section from the below link to generate application pa
 
 https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/ 
 
+## Monitor your file system
+
+Python Watchdog library help to monitor the file system to detect on new file created or modified 
+
 
 ## Libraries
 
@@ -26,6 +30,7 @@ pywhatkit
 datetime
 requests
 pdfplumber
+watchdog
 ```
 
 ## Reason to use this Method
